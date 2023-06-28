@@ -15,7 +15,18 @@ public class Bag {
         this.amount = amount;
     }
 
-    public boolean hasInvitation() {
+    public Long hold(Ticket ticket) {
+        if (this.hasInvitation()) {
+            this.setTicket(ticket);
+            return 0L;
+        } else {
+            this.setTicket(ticket);
+            this.minusAmount(ticket.getFee());
+            return ticket.getFee();
+        }
+    }
+
+    private boolean hasInvitation() {
         return invitation != null;
     }
 
