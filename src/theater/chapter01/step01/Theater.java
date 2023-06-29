@@ -1,4 +1,4 @@
-package theater.step01;
+package theater.chapter01.step01;
 
 public class Theater {
 

@@ -1,4 +1,4 @@
-package theater.step01;
+package theater.chapter01.step02;
 
 import java.time.LocalDateTime;
 

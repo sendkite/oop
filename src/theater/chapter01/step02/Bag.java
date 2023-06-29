@@ -1,4 +1,4 @@
-package theater.step02;
+package theater.chapter01.step02;
 
 public class Bag {
 

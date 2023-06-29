@@ -1,4 +1,4 @@
-package theater.step02;
+package theater.chapter01.step02;
 
 import java.util.ArrayList;
 import java.util.Arrays;

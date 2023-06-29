@@ -1,4 +1,4 @@
-package theater.step02;
+package theater.chapter01.step01;
 
 public class Audience {
 
@@ -8,7 +8,7 @@ public class Audience {
         this.bag = bag;
     }
 
-    public Long buy(Ticket ticket) {
-        return bag.hold(ticket);
+    public Bag getBag() {
+        return bag;
     }
 }
