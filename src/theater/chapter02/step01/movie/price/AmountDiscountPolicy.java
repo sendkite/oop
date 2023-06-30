@@ -7,7 +7,7 @@ import theater.chapter02.step01.movie.Screening;
 
 public class AmountDiscountPolicy extends DiscountPolicy {
 
-    private Money discountAmount;
+    private final Money discountAmount;
 
     public AmountDiscountPolicy(Money discountAmount, DiscountCondition... conditions) {
         super(conditions);
@@ -16,6 +16,6 @@ public class AmountDiscountPolicy extends DiscountPolicy {
 
     @Override
     protected Money getDiscountAmount(Screening Screening) {
-        return null;
+        return discountAmount;
     }
 }
